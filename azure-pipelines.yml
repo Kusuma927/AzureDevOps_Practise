@@ -11,6 +11,6 @@ pool:
 
 steps:
 - script: |
-    chmod +x 01-WeatherForecastAPI.sh
-    ./01-WeatherForecastAPI.sh
+    chmod +x test.sh
+    ./test.sh
   displayName: 'Run Weather Forecast Script'
