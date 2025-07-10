@@ -14,6 +14,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    chmod +x 01-WeatherForecastAPI.sh
+    ./01-WeatherForecastAPI.sh
+  displayName: 'Run Weather Forecast Script'
