@@ -14,3 +14,5 @@ steps:
     chmod +x test.sh
     ./test.sh
   displayName: 'Run Weather Forecast Script'
+
+
